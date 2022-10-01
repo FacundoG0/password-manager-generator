@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: violet;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    width: 100%;
+}
+
+.div_inputs_login{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    padding-top: 50px;
+    margin-top: 5%;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+.register_input{
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 40%;
+    height: 25px;
+    text-align: center;
+}
+
+.btn_registrar{
+    margin-top: 30px;
+    width: 12rem;
+    height: 2rem;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.div_reloj{
+    margin-bottom: 20px;
+    font-size: x-large;
+    border: 2px solid white;
+    padding: 6px;
+}
