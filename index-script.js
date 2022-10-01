@@ -192,7 +192,6 @@ function verificar_token(){
     }
     btn_validar.disabled = true
     input_code.addEventListener("input", desactivar)
-    
 
 /*_______________________________________________________________________________________________________________
 
